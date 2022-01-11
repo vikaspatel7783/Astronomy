@@ -18,7 +18,7 @@ interface PlanetaryService {
     companion object {
         private const val BASE_URL = "https://api.nasa.gov/"
 
-        private fun create(): PlanetaryService {
+        fun create(): PlanetaryService {
             val logger = HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BASIC }
 
             val client = OkHttpClient.Builder()
@@ -32,7 +32,5 @@ interface PlanetaryService {
                 .build()
                 .create(PlanetaryService::class.java)
         }
-
-        val planetaryService: PlanetaryService = create()
     }
 }
