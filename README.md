@@ -5,3 +5,8 @@ Gist of Acceptance criteria
 for that day, same should be referred (for display) for all subsequent user attempts in that day
 * App should download image when day changes and image is not available (in device) for that day,
 provided Internet connectivity available otherwise it will display last available image from device
+
+
+Architecture
+------------
+![Screenshot](/docs/Architecture.png)
