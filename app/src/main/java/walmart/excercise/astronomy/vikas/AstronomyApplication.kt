@@ -12,7 +12,7 @@ class AstronomyApplication: Application() {
         InstanceFactory.instantiate(
             astronomyDatabase = AstronomyDatabase.getInstance(this),
             planetaryService = PlanetaryService.create(),
-            astronomyRepositoryImpl = AstronomyRepositoryImpl()
+            astronomyRepository = AstronomyRepositoryImpl()
         )
     }
 }
