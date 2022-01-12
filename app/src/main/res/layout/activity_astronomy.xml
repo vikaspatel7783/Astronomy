@@ -21,8 +21,14 @@
         android:layout_toRightOf="@+id/btn_show_image"/>
 
     <ImageView
-        android:id="@+id/download_image"
+        android:id="@+id/astronomy_image"
         android:layout_below="@+id/btn_show_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/astronomy_explanation"
+        android:layout_below="@+id/astronomy_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

@@ -13,6 +13,9 @@ data class Astronomy (
     @ColumnInfo(name = "image")
     var image: ByteArray,
 
+    @ColumnInfo(name = "explanation")
+    var explanation: String,
+
     @ColumnInfo(name = "date")
     var date: String
 ) {

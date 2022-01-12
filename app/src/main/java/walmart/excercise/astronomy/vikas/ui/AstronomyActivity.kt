@@ -1,17 +1,13 @@
 package walmart.excercise.astronomy.vikas.ui
 
-import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.ProgressBar
-import android.widget.Toast
+import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import walmart.excercise.astronomy.vikas.R
-import walmart.excercise.astronomy.vikas.network.PlanetaryResponse
 import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import walmart.excercise.astronomy.vikas.utils.BitmapConverter
 
 
 class AstronomyActivity : AppCompatActivity() {
@@ -25,29 +21,15 @@ class AstronomyActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_show_image).setOnClickListener {
             showProgressbar(true)
 
-//            astronomyViewModel.getFromDb(Astronomy.toDate(System.currentTimeMillis())).observe(this, {
-//                findViewById<ImageView>(R.id.download_image).setImageBitmap(it)
-//            })
-//            showProgressbar(false)
+            astronomyViewModel.getAstronomy(Astronomy.toDate(System.currentTimeMillis())).observe(this, { astronomy ->
+                showProgressbar(false)
 
-            astronomyViewModel.fetchApiResponse().observe(this, { planetaryResponse ->
-                Toast.makeText(this, planetaryResponse.title, Toast.LENGTH_LONG).show()
-                downloadAndShowImage(planetaryResponse)
+                findViewById<ImageView>(R.id.astronomy_image).setImageBitmap(BitmapConverter.toBitmap(astronomy.image))
+                findViewById<TextView>(R.id.astronomy_explanation).text = astronomy.explanation
+                Toast.makeText(this, astronomy.date, Toast.LENGTH_LONG).show()
             })
+
         }
-    }
-
-    private fun downloadAndShowImage(planetaryResponse: PlanetaryResponse) {
-        astronomyViewModel.downloadImage(planetaryResponse.url).observe(this, {
-            showProgressbar(false)
-            findViewById<ImageView>(R.id.download_image).setImageBitmap(it)
-
-            saveToDB(it)
-        })
-    }
-
-    private fun saveToDB(bitmap: Bitmap) {
-        astronomyViewModel.saveToDb(bitmap)
     }
 
     private fun showProgressbar(show: Boolean) {
