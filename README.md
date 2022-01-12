@@ -14,6 +14,13 @@ User journey flow
 -----------------
 ![Screenshot](/docs/Flow.png)
 
+Screen shots
+-----------------
+![Screenshot](/docs/screenshot-nodata-firsttime.png, "very first time")
+![Screenshot](/docs/screenshot-image-network.png, "downloading from cloud")
+![Screenshot](/docs/screenshot-image-local.png, "referring from local database")
+![Screenshot](/docs/screenshot-image-last-saved.png, "referring last saved")
+
 Stuff used
 -----------------------
 * LiveData
