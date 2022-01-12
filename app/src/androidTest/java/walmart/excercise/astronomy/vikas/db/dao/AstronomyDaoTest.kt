@@ -33,7 +33,8 @@ class AstronomyDaoTest {
 
     private fun createAstronomyEntity(imageByteArray: ByteArray, date: String) = Astronomy(
             image = imageByteArray,
-            date = date
+            date = date,
+            explanation = "This is the description of the planetary image"
     )
 
     @Test
@@ -57,7 +58,7 @@ class AstronomyDaoTest {
                 .let {
                     astronomyDao.insert(it)
                     val dbRecord = astronomyDao.get(todayDate)
-                    Assert.assertEquals(todayDate, dbRecord.date)
+                    Assert.assertEquals(todayDate, dbRecord?.date)
                 }
         }
     }

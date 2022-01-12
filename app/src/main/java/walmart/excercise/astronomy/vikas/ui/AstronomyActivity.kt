@@ -45,8 +45,6 @@ class AstronomyActivity : AppCompatActivity() {
                     Toast.makeText(this, "Something went wrong ${resultStatus.exception}", Toast.LENGTH_LONG).show()
                 }
             }
-
-            else -> throw Exception("Other result status received ${resultStatus}}")
         }
     }
 

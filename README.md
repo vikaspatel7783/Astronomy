@@ -10,3 +10,7 @@ provided Internet connectivity available otherwise it will display last availabl
 Architecture
 ------------
 ![Screenshot](/docs/Architecture.png)
+
+User journey flow
+------------
+![Screenshot](/docs/Flow.png)
