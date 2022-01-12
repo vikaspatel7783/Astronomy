@@ -33,8 +33,7 @@ Stuff used
 Improvements
 ------------
 * Better image loader library should be used. e.g. Glide
+* API key should be referred from .properties file, rather than hardcoded
 * Espresso tests for acceptance testing, more unit tests for business logic (e.g. Repository)
 * Component instances can be better managed/ingested through DI library. e.g. Hilt
-* Android framework dependent components should be abstracted (through interface) and should be referred
-via Dependency Inversion principal
-* Warning/errors should be monitored using Lint tool
+* Dependency Inversion principal for framework based components (e.g. Room, Retrofit)
