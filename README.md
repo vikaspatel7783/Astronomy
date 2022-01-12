@@ -26,9 +26,8 @@ Stuff used
 Improvements
 ------------
 * Better image loader library should be used. e.g. Glide
-* Espresso tests can be written for automated acceptance testing
+* Espresso tests for acceptance testing, more unit tests for business logic (e.g. Repository)
 * Component instances can be better managed/ingested through DI library. e.g. Hilt
 * Android framework dependent components should be abstracted (through interface) and should be referred
 via Dependency Inversion principal
-* More test-cases should be written for critical business logic (e.g. Astronomy repository)
 * Warning/errors should be monitored using Lint tool
