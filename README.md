@@ -17,9 +17,9 @@ User journey flow
 Screen shots
 -----------------
 ![Screenshot](/docs/screenshot-nodata-firsttime.png)
-![Screenshot](/docs/screenshot-image-network.png, "downloading from cloud")
-![Screenshot](/docs/screenshot-image-local.png, "referring from local database")
-![Screenshot](/docs/screenshot-image-last-saved.png, "referring last saved")
+![Screenshot](/docs/screenshot-image-network.png)
+![Screenshot](/docs/screenshot-image-local.png)
+![Screenshot](/docs/screenshot-image-last-saved.png)
 
 Stuff used
 -----------------------
