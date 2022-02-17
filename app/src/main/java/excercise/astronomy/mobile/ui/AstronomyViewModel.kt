@@ -1,13 +1,13 @@
-package walmart.excercise.astronomy.vikas.ui
+package excercise.astronomy.mobile.ui
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import walmart.excercise.astronomy.vikas.InstanceFactory
-import walmart.excercise.astronomy.vikas.ResultStatus
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.InstanceFactory
+import excercise.astronomy.mobile.ResultStatus
+import excercise.astronomy.mobile.db.entity.Astronomy
 
 class AstronomyViewModel: ViewModel() {
 

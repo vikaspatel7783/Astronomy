@@ -1,10 +1,10 @@
-package walmart.excercise.astronomy.vikas.db.dao
+package excercise.astronomy.mobile.db.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.db.entity.Astronomy
 
 @Dao
 interface AstronomyDao {

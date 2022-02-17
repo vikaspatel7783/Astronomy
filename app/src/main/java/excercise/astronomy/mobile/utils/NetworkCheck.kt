@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.utils
+package excercise.astronomy.mobile.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

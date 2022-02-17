@@ -7,8 +7,9 @@ import androidx.test.platform.app.InstrumentationRegistry
 import kotlinx.coroutines.runBlocking
 import org.junit.*
 import org.junit.runner.RunWith
-import walmart.excercise.astronomy.vikas.db.AstronomyDatabase
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.db.AstronomyDatabase
+import excercise.astronomy.mobile.db.dao.AstronomyDao
+import excercise.astronomy.mobile.db.entity.Astronomy
 
 @RunWith(AndroidJUnit4::class)
 class AstronomyDaoTest {

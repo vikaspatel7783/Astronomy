@@ -1,6 +1,6 @@
-package walmart.excercise.astronomy.vikas
+package excercise.astronomy.mobile
 
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.db.entity.Astronomy
 import java.lang.Exception
 
 sealed class ResultStatus {

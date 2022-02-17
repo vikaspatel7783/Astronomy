@@ -1,8 +1,8 @@
-package walmart.excercise.astronomy.vikas
+package excercise.astronomy.mobile
 
-import walmart.excercise.astronomy.vikas.db.AstronomyDatabase
-import walmart.excercise.astronomy.vikas.network.PlanetaryService
-import walmart.excercise.astronomy.vikas.repository.AstronomyRepository
+import excercise.astronomy.mobile.db.AstronomyDatabase
+import excercise.astronomy.mobile.network.PlanetaryService
+import excercise.astronomy.mobile.repository.AstronomyRepository
 
 class InstanceFactory {
 
@@ -15,9 +15,9 @@ class InstanceFactory {
         fun instantiate(astronomyDatabase: AstronomyDatabase,
                         planetaryService: PlanetaryService,
                         astronomyRepository: AstronomyRepository) {
-            this.astronomyDatabase = astronomyDatabase
-            this.planetaryService = planetaryService
-            this.astronomyRepositoryImpl = astronomyRepository
+            Companion.astronomyDatabase = astronomyDatabase
+            Companion.planetaryService = planetaryService
+            astronomyRepositoryImpl = astronomyRepository
         }
     }
 }

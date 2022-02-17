@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.network
+package excercise.astronomy.mobile.network
 
 import com.google.gson.annotations.SerializedName
 

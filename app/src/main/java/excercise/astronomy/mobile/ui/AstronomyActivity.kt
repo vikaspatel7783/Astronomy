@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.ui
+package excercise.astronomy.mobile.ui
 
 import android.os.Bundle
 import android.view.View
@@ -6,9 +6,9 @@ import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import walmart.excercise.astronomy.vikas.R
-import walmart.excercise.astronomy.vikas.ResultStatus
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
-import walmart.excercise.astronomy.vikas.utils.BitmapConverter
+import excercise.astronomy.mobile.ResultStatus
+import excercise.astronomy.mobile.db.entity.Astronomy
+import excercise.astronomy.mobile.utils.BitmapConverter
 import java.net.UnknownHostException
 
 

@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.network
+package excercise.astronomy.mobile.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

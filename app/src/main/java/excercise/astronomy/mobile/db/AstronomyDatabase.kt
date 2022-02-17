@@ -1,12 +1,12 @@
-package walmart.excercise.astronomy.vikas.db
+package excercise.astronomy.mobile.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import walmart.excercise.astronomy.vikas.db.dao.AstronomyDao
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.db.dao.AstronomyDao
+import excercise.astronomy.mobile.db.entity.Astronomy
 
 @Database(entities = [Astronomy::class], version = 1, exportSchema = false)
 abstract class AstronomyDatabase: RoomDatabase() {

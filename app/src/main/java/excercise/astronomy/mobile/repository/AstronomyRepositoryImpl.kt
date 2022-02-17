@@ -1,10 +1,10 @@
-package walmart.excercise.astronomy.vikas.repository
+package excercise.astronomy.mobile.repository
 
-import walmart.excercise.astronomy.vikas.InstanceFactory
-import walmart.excercise.astronomy.vikas.ResultStatus
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
-import walmart.excercise.astronomy.vikas.network.ImageDownloader
-import walmart.excercise.astronomy.vikas.utils.BitmapConverter
+import excercise.astronomy.mobile.InstanceFactory
+import excercise.astronomy.mobile.ResultStatus
+import excercise.astronomy.mobile.db.entity.Astronomy
+import excercise.astronomy.mobile.network.ImageDownloader
+import excercise.astronomy.mobile.utils.BitmapConverter
 import java.net.URL
 
 class AstronomyRepositoryImpl : AstronomyRepository {

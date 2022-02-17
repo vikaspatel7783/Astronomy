@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="5dp"
-    tools:context=".ui.AstronomyActivity">
+    tools:context="excercise.astronomy.mobile.ui.AstronomyActivity">
 
     <ProgressBar
         android:id="@+id/download_progress"

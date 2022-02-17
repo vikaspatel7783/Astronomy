@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "walmart.excercise.astronomy.vikas"
+        applicationId "vikas.mobile.excercise.astronomy"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1

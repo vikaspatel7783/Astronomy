@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.db.entity
+package excercise.astronomy.mobile.db.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

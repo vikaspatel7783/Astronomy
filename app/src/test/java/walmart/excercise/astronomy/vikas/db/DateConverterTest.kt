@@ -2,7 +2,7 @@ package walmart.excercise.astronomy.vikas.db
 
 import org.junit.Assert
 import org.junit.Test
-import walmart.excercise.astronomy.vikas.db.entity.Astronomy
+import excercise.astronomy.mobile.db.entity.Astronomy
 
 class DateConverterTest {
 

@@ -1,4 +1,4 @@
-package walmart.excercise.astronomy.vikas.utils
+package excercise.astronomy.mobile.utils
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

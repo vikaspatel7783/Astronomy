@@ -1,6 +1,6 @@
-package walmart.excercise.astronomy.vikas.repository
+package excercise.astronomy.mobile.repository
 
-import walmart.excercise.astronomy.vikas.ResultStatus
+import excercise.astronomy.mobile.ResultStatus
 
 interface AstronomyRepository {
 
